@@ -1,0 +1,48 @@
+body {
+    background-color: #fff5d9;
+}
+
+.site-header {
+    padding: 20px;
+    background-color: #ffecb8;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.site-main {
+    padding: 20px;
+}
+
+.app-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding-bottom: 20px;
+}
+
+.form-fieldset {
+    margin: 0;
+    padding: 10px;
+    border: 2px solid #f7e09e;
+}
+
+.input-group {
+    display: flex;
+    column-gap: 20px;
+}
+
+.app-feedback {
+    color: #ff4500;
+}
+
+.app-viewer {
+    max-width: 100%;
+    max-height: 500px;
+    overflow: auto;
+    border: 4px solid #444444;
+}

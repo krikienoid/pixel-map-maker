@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <title>PixelMapMaker</title>
+
+        <meta name="description" content="Assign numeric coordinates to pixel art" />
+
+        <!-- BEGIN CSS -->
+        <link rel="stylesheet" type="text/css" href="./normalize.css?v=1.0.0" />
+        <link rel="stylesheet" type="text/css" href="./main.css?v=1.0.0" />
+
+        <!-- BEGIN Analytics -->
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TB487JMWSH"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-TB487JMWSH');
+        </script>
+        <!-- END Analytics -->
+    </head>
+
+    <body>
+        <header class="site-header" role="banner">
+            <h1>PixelMapMaker</h1>
+        </header>
+
+        <main class="site-main" role="main">
+            <div class="app">
+                <div class="app-toolbar">
+                    <div class="form-group">
+                        <label for="app-input-file" />Upload File</label>
+
+                        <input type="file" class="form-control" accept="image/*" id="app-input-file" />
+                    </div>
+
+                    <fieldset class="form-fieldset">
+                        <legend>Offset</legend>
+
+                        <div class="input-group">
+                            <div class="form-group">
+                                <label for="app-input-x" />X</label>
+
+                                <input type="number" class="form-control" value="0" id="app-input-x" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="app-input-y" />Y</label>
+
+                                <input type="number" class="form-control" value="0" id="app-input-y" />
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <a href="#" id="app-btn-download">Download</a>
+                </div>
+
+                <div class="app-feedback"></div>
+
+                <div class="app-viewer">
+                    <canvas id="app-canvas"></canvas>
+                </div>
+            </div>
+        </main>
+
+        <!-- BEGIN JS -->
+        <script type="text/javascript" src="./main.js?v=1.0.0"></script>
+        <!-- END JS -->
+    </body>
+</html>
