@@ -2,7 +2,7 @@
 
 > Assign numeric coordinates to pixel art.
 
-[krikienoid.github.io/pixelmapmaker](https://krikienoid.github.io/pixelmapmaker/)
+[krikienoid.github.io/pixel-map-maker](https://krikienoid.github.io/pixel-map-maker/)
 
 ## Description
 
